@@ -78,17 +78,17 @@ The table below describes the font technologies (`<font-tech>`), including color
 
 | Technology                     | Supports                                                                                      |
 | :----------------------------- | :-------------------------------------------------------------------------------------------- |
-| **`<color-font-tech>`**        |
+| **`<color-font-tech>`**        |                                                                                               |
 | `color-colrv0`                 | Multi-colored glyphs via COLR version 0 table                                                 |
 | `color-colrv1`                 | Multi-colored glyphs via COLR version 1 table                                                 |
 | `color-svg`                    | SVG multi-colored tables                                                                      |
 | `color-sbix`                   | Standard bitmap graphics tables                                                               |
 | `color-cbdt`                   | Color bitmap data tables                                                                      |
-| **`<font-features-tech>`**     |
+| **`<font-features-tech>`**     |                                                                                               |
 | `features-opentype`            | OpenType `GSUB` and `GPOS` tables                                                             |
 | `features-aat`                 | TrueType `morx` and `kerx` tables                                                             |
 | `features-graphite`            | Graphite features, namely `Silf`, `Glat` , `Gloc` , `Feat`, and `Sill` tables                 |
-| **Other `<font-tech>` values** |
+| **Other `<font-tech>` values** |                                                                                               |
 | `incremental-patch`            | Incremental font loading using the patch subset method                                        |
 | `incremental-range`            | Incremental font loading using the range request method                                       |
 | `incremental-auto`             | Incremental font loading using method negotiation                                             |
@@ -287,4 +287,4 @@ The following example applies the CSS style if the browser supports the `woff2` 
 ## See also
 
 - [Using feature queries](/en-US/docs/Web/CSS/CSS_conditional_rules/Using_feature_queries)
-- The CSSOM class {{DOMxRef("CSSSupportsRule")}}, and the {{DOMxRef("CSS.supports()")}} method that allows the same check to be performed via JavaScript.
+- The CSSOM class {{DOMxRef("CSSSupportsRule")}}, and the {{DOMxref("CSS.supports_static", "CSS.supports()")}} method that allows the same check to be performed via JavaScript.
